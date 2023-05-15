@@ -84,7 +84,7 @@ app.post("/login", async (req, res) => {
     return res.json({Status: "Success"});
   
 });
-
+////////
 //delete employee
 app.get('/delete/:id', async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173');
