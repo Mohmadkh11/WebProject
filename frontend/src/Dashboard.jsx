@@ -49,6 +49,10 @@ function Dashboard() {
 								<Link to="profile" className="nav-link px-0 align-middle text-white">
 									<i className="fs-4 bi-person"></i> <span className="ms-1 d-none d-sm-inline">Profile</span></Link>
 							</li>
+							<li>
+								<Link to="schedule" className="nav-link px-0 align-middle text-white">
+									<i className="fs-4 bi-person"></i> <span className="ms-1 d-none d-sm-inline">Schedule</span></Link>
+							</li>
 							<li onClick={handleLogout}>
 								<a href="#" className="nav-link px-0 align-middle text-white">
 									<i className="fs-4 bi-power"></i> <span className="ms-1 d-none d-sm-inline">Logout</span></a>
